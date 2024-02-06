@@ -1,0 +1,29 @@
+.service-component {
+    cursor: pointer;
+    border-top: 2px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    transition: all 0.1s ease-in-out;
+}
+
+.service-component:hover {
+    border-top: 2px solid #0790e8;
+    border-bottom: 5px solid #0790e8;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.service-component:hover .MuiSvgIcon-root {
+    color: #0693e3;
+}
+
+.step-desc {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+input:-internal-autofill-selected {
+    background: transparent !important;
+    color: inherit !important;
+}
